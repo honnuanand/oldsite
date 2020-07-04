@@ -21,7 +21,7 @@
 title: The Clue Trail
 email: anand@honnu.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the journaling of my tech ( and some times non-tech) ramblings and the trail of my learnings and exploration.
+  My Web Home.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "web.clue2solve.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: honnuanand

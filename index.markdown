@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+#### I am Anand Rao , Currently working as a Field Technologist at on the Tanzu Team at VMware. My Journey on technology has brought me through multiple industries , geos and people. 
