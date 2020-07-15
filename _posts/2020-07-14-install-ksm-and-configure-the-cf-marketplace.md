@@ -12,7 +12,7 @@ tags:
     - rabbitmq
 summary: The Application journey is intwined with the data and services it uses. When it comes to running Apps seamlessly on k8s, Tanzu application service leads the way and KSM comes in as a companion to TAS as a way to bring the services needed by the apps running on TAS. 
 ---
-
+#### Any Application journey is intwined with the data and services it uses. When it comes to running Apps seamlessly on k8s, Tanzu application service leads the way and KSM comes in as a companion to TAS as a way to bring the services needed by the apps running on TAS.
 #### Follow the instructions from  [here](http://docs-pcf-staging.cfapps.io/ksm/0-n/installing-helm.html)
 
 #### 1. Prepare S3 bucket for ksm. Use [my terraform config](https://github.com/honnuanand/s3-terraform) for this if you want. 
