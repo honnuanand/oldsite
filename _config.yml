@@ -51,3 +51,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+gems: [jekyll_github_sample]
