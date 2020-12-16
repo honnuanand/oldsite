@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 show_excerpts: true
-title: The Clue Trail
+title: Clue2solve 
 email: anand@honnu.com
 description: >- # this means to ignore newlines until "baseurl:"
   My Web Home.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "web.clue2solve.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "clue2solve.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: honnuanand
 github_username:  honnuanand
 
