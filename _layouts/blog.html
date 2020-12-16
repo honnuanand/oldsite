@@ -1,0 +1,48 @@
+---
+layout: default
+list_title: Recent Posts
+---
+
+<div class="home">
+
+{% assign currentYear = site.time | date: "%Y" %}
+{% assign currentDay = site.time | date: "%j" | plus: 0 %}
+{% assign currentDay_minus_week = site.time | date: "%j" | minus: 7  %}
+{% assign currentDay_minus_6months = site.time | date: "%j" | minus: 180  %}
+
+
+
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+          {% assign postYear = post.date | date: "%Y" %}
+          {% assign postDay = post.date | date: "%j" | plus: 0 %}
+
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {%- if currentYear == postYear  and postDay > currentDay_minus_6months -%}
+            <span class="post-excerpt"> {{ post.excerpt }}</span>
+          {%- endif -%}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>

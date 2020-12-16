@@ -14,7 +14,7 @@ summary: The Application journey is intwined with the data and services it uses.
 ---
 #### A Test Drive of KSM ,  the Tanzu Container Services Manager
 #### Any Application journey is intwined with the data and services it uses. When it comes to running Apps seamlessly on k8s, Tanzu application service leads the way and KSM comes in as a companion to TAS as a way to bring the services needed by the apps running on TAS.
-#### Follow the instructions from  [here](http://docs-pcf-staging.cfapps.io/ksm/0-n/installing-helm.html)
+#### Follow the instructions on the Documentation for the install [here](http://docs-pcf-staging.cfapps.io/ksm/0-n/installing-helm.html). You will need to be on the beta program for this product to get access to the docs and the bits for this. 
 
 #### 1. Prepare S3 bucket for ksm. Use [my terraform config](https://github.com/honnuanand/s3-terraform) for this if you want. 
 Collect the `bucket_id` , `region` and `bucket_regional_domain_name` fields from the terraform output. We will use these fields in the configs of the override.yml later. 

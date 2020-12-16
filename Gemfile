@@ -32,6 +32,6 @@ gem 'jekyll-archives'
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate' 
 gem 'jekyll_github_sample'
-
+gem 'jekyll-archives'
 
 gem 'github-pages', group: :jekyll_plugins
