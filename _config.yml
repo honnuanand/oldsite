@@ -28,7 +28,7 @@ twitter_username: honnuanand
 github_username:  honnuanand
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
   - jekyll-archives
